@@ -7,7 +7,6 @@ WORKDIR /app
 #Copy file yang diperlukan
 COPY app.py .
 COPY requirements.txt .
-COPY .env .
 
 #instal requirements.txt
 # RUN apk add gcc musl-dev python3-dev libffi-dev openssl-dev
