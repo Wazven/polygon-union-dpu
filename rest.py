@@ -11,7 +11,7 @@ app = FastAPI()
 
 @app.get("/union_polygon")
 async def get_union_polygon():
-    ip_address = os.getenv("IP_ADDRESS")
+    ip_address = 'your ip'
     response = requests.get(f'http://{ip_address}')
     data_json = response.json()
 
