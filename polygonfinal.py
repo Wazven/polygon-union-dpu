@@ -1,6 +1,6 @@
 #%% Get data json dari ip
 import requests
-ip_address = '103.101.52.72:5098'
+ip_address = 'your_ip'
 response = requests.get(f'http://{ip_address}')
 
 #menampilkan data json
@@ -75,5 +75,5 @@ map_semarang
 import json
 json_final_union_polygon = json.dumps(final_union_polygon)
 
-  
+
 # %%
